@@ -1,0 +1,32 @@
+.conteiner__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 2em;
+    background-color: var(--back-color-principal);
+    border-radius: 20px;
+  }
+  
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.ancora {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: #000;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 0 0 0 1em;
+}
+
+.ancora:hover{
+    color: rgb(119, 119, 119);
+}
+
+.ancora:active{
+    color: var(--amarelo-logo);
+}

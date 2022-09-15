@@ -1,0 +1,44 @@
+.conteiner__produto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteiner__item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    transition-duration: 3s;
+    transition-delay: 0.5ms;
+}
+
+.conteiner__item:hover{
+    
+    background-image: url(../img/logo_fisio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.nome {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.atuacao {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em;
+}
+
+.img {
+    width: 150px;
+    height: 100%;
+    border-radius: 50px;
+    align-items: center;
+}

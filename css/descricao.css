@@ -1,0 +1,15 @@
+.titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo__descricao {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 120px;
+
+}

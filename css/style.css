@@ -1,0 +1,13 @@
+:root {
+    --letras-principal: #fff;
+    --verde-claro-logo: #009846;
+    --verde-escuro-logo: #007438;
+    --amarelo-logo: #e8be46;
+    --back-color-principal: rgb(245, 245, 245);
+    --hover: rgb(255, 232, 132);
+}
+
+body {
+   width: 1440px;
+   margin: 0 auto;
+}
